@@ -1,0 +1,99 @@
+.hamburger {
+    position: absolute;
+    top: 18px;
+    left: 17px;
+    width: 37px;
+    height: 26px;
+    cursor: pointer;
+    &__close {
+        display: none;
+    }
+    
+}
+
+.header {
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+    top: 0px;
+    background: #FFF;
+    &__hidden {}
+    &__fixed {}
+    
+    &__wrapper {
+        padding-left: 76px;
+        height: 65px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__left {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 20px;
+    }
+    &__right {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        gap: 35px;
+    }
+    &__logo {
+        width: 62px;
+        img {
+            width: 100%;
+        }
+    }
+    &__phone {
+        color: $text-color;
+        text-align: right;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        text-decoration: none;
+        &-inner {
+            display: none;
+            position: relative;
+        }
+        &-hidden {
+            color: $text-color;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 24px; 
+            &::before {
+                content: "";
+                display: block;
+                position: absolute;
+                width: 28px;
+                height: 28px;
+                top: -2px;
+                left: -34px;
+                background: url('../icons/whatsapp_header.svg');
+            }
+        }
+    }
+    
+    &__city {
+        color: $text-color;
+        text-align: right;
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    &__street {
+        color: $text-grey;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 21px;
+    }
+    &__address {
+        display: none;
+        
+    }
+
+}

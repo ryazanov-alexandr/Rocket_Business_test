@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/tiny-slider.css">
+    <link rel="stylesheet" href="css/style.min.css">
+</head>
+<body>
+    <header class="header">
+        <div class="hamburger">
+            <img class="hamburger__icon" src="icons/hamburger.svg" alt="">
+            <img class="hamburger__close" src="icons/close.svg" alt="">
+        </div>
+        <div class="container">
+            <div class="header__wrapper">
+                <div class="header__left">
+                    <a href="#" class="header__logo">
+                        <img class="header__logo" src="icons/logo.svg" alt="logo"></img>
+                    </a>
+            
+                    <div class="header__address">
+                        <div class="header__city">Ростов-на-Дону</div>
+                        <div class="header__street">ул. Ленина, 2Б</div>
+                    </div>
+                </div>
+                
+                <div class="header__right">
+                    <div class="header__contacts">
+                        <a href="tel:+78630000000" class="header__phone">+7(863) 000 00 00</a>
+                        <div class="header__city">Ростов-на-Дону</div>
+                    </div>
+                    <div class="header__phone-inner">
+                        <a href="tel:+78630000000" class="header__phone header__phone-hidden">+7(863) 000 00 00</a>
+                    </div>
+                    <button data-modal class="button button_header">Записаться на прием</button>
+                </div>
+
+            </div>
+        </div>
+            
+        <nav>
+            <div class="container">
+                <div class="menu">
+                    <div class="menu__block">
+                            <ul class="menu__list">
+                                <li class="menu__link"><a href="#">О клинике</a></li>
+                                <li class="menu__link"><a href="#">Услуги</a></li>
+                                <li class="menu__link"><a href="#">Специалисты</a></li>
+                                <li class="menu__link"><a href="#">Цены</a></li>
+                                <li class="menu__link"><a href="#">Контакты</a></li>
+                            </ul>
+
+                        <button data-modal class="button button_menu">Записаться на прием</button>
+                    </div>
+                    <div class="menu__overlay"></div>
+                </div>
+            </div>
+
+        </nav>
+       
+
+    </header>
+
+    <section class="promo">
+        <div class="promo__img">
+            <picture>
+                <source media="(max-width: 375px)" srcset="img/promo_min.png">
+                <source media="(min-width: 376px)" srcset="img/promo.png">
+                <img src="img/promo.png" alt="clinic">
+            </picture>
+        </div>
+
+        <div class="promo__wrapper">
+            <h1 class="promo__title">Многопрофильная клиника для детей и взрослых</h1>  
+            <div class="promo__descr">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</div>
+        </div>
+       
+    </section>
+
+    <section class="slider">
+        <div class="container">
+            <div class="slider__wrapper">
+                <div class="slider__slide">
+                    <div class="slider__slide-inner">
+                        <picture class="slider__img">
+                            <source media="(max-width: 375px)" srcset="img/doctor-working-table_min.png">
+                            <source media="(min-width: 376px)" srcset="img/doctor-working-table.png">
+                            <img src="img/doctor-working-table.png" alt="clinic">
+                        </picture>
+                        <div class="slider__descr">
+                            <div class="slider__info">
+                                <h2 class="slider__title">Check-UP</h2>
+                                <div class="slider__subtitle">для мужчин</div>
+                                <ul class="slider__list">
+                                    <li>Гормональный скрининг</li>
+                                    <li>Тестостерон</li>
+                                    <li>Свободный тестостерон </li>
+                                    <li>Глобулин, связывающий половые гормоны</li>
+                                </ul>
+                                <div class="slider__price">Всего 2800₽<span >3500₽</span></div>
+                            </div>
+                            <div class="slider__btns">
+                                <button data-modal class="button button_slider">Записаться</button>
+                                <button class="button button_slider button_slider-trp">Подробнее</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="slider__slide">
+                    <div class="slider__slide-inner">
+                        <picture class="slider__img">
+                            <source media="(max-width: 375px)" srcset="img/doctor-working-table_min.png">
+                            <source media="(min-width: 376px)" srcset="img/doctor-working-table.png">
+                            <img src="img/doctor-working-table.png" alt="clinic">
+                        </picture>
+                        <div class="slider__descr">
+                            <div class="slider__info">
+                                <h2 class="slider__title">Check-UP</h2>
+                                <div class="slider__subtitle">для мужчин</div>
+                                <ul class="slider__list">
+                                    <li>Гормональный скрининг</li>
+                                    <li>Тестостерон</li>
+                                    <li>Свободный тестостерон </li>
+                                    <li>Глобулин, связывающий половые гормоны</li>
+                                </ul>
+                                <div class="slider__price">Всего 2800₽<span >3500₽</span></div>
+                            </div>
+                            <div class="slider__btns">
+                                <button data-modal class="button button_slider">Записаться</button>
+                                <button class="button button_slider button_slider-trp">Подробнее</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="slider__slide">
+                    <div class="slider__slide-inner">
+                        <picture class="slider__img">
+                            <source media="(max-width: 375px)" srcset="img/doctor-working-table_min.png">
+                            <source media="(min-width: 376px)" srcset="img/doctor-working-table.png">
+                            <img src="img/doctor-working-table.png" alt="clinic">
+                        </picture>
+                        <div class="slider__descr">
+                            <div class="slider__info">
+                                <h2 class="slider__title">Check-UP</h2>
+                                <div class="slider__subtitle">для мужчин</div>
+                                <ul class="slider__list">
+                                    <li>Гормональный скрининг</li>
+                                    <li>Тестостерон</li>
+                                    <li>Свободный тестостерон </li>
+                                    <li>Глобулин, связывающий половые гормоны</li>
+                                </ul>
+                                <div class="slider__price">Всего 2800₽<span >3500₽</span></div>
+                            </div>
+                            <div class="slider__btns">
+                                <button data-modal class="button button_slider">Записаться</button>
+                                <button class="button button_slider button_slider-trp">Подробнее</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            
+            <div class="footer__wrapper">
+                <a href="#" class="footer__logo">
+                    <img class="footer__logo" src="icons/footer-logo.svg" alt="logo"></img>
+                </a>
+                <div class="footer__links">
+                    <a href="#">О клинике</a>
+                    <a href="#">Услуги</a>
+                    <a href="#">Специалисты</a>
+                    <a href="#">Цены</a>
+                    <a href="#">Контакты</a>
+                </div>
+                <div class="footer__social">
+                    <a class="footer__social-item" href="#"><img src="icons/social/instagram.svg" alt="instagram"></a>
+                    <a class="footer__social-item" href="#"><img src="icons/social/whatsapp.svg" alt="whatsapp"></a>
+                    <a class="footer__social-item" href="#"><img src="icons/social/telegram.png" alt="telegram"></a>
+                </div>
+            </div>            
+        </div>     
+    </footer>
+
+    <div class="modal">
+        <div class="modal__dialog">
+            <div class="modal__content">
+                <form action="#">
+                    <div data-close class="modal__close">&times;</div>
+                    <div class="modal__title">Мы свяжемся с вами как можно быстрее!</div>
+                    <input id="name" required placeholder="Ваше имя" name="name" type="text" class="modal__input" minlength="2">
+                    <input id="phone" required placeholder="+7 (___) ___ ____" name="phone" type="tel" class="modal__input" minlength="17" maxlength="17">
+                    <button class="button button_modal">Записаться</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"></script>
+    <script src="js/bundle.js"></script>
+</body>
+</html>

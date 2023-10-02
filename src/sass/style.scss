@@ -1,0 +1,32 @@
+@import 'base/variables';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'PT Sans Caption';
+    src: url('../fonts/PT_Sans-Caption-Web-Bold.ttf');
+    src: url('../fonts/PT_Sans-Caption-Web-Regular.ttf');
+}
+
+html {
+    font-family: PT Sans Caption, sans-serif;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 18px;
+}
+
+@import 'blocks/header';
+@import 'blocks/buttons';
+@import 'blocks/menu';
+@import 'blocks/promo';
+@import 'blocks/slider';
+@import 'blocks/footer';
+@import 'blocks/modal';
+@import 'blocks/media';
